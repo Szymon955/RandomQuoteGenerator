@@ -17,7 +17,7 @@ object QuoteManager1 {
 
     // Dodawanie nowego cytatu
     fun addQuote(quote: String) {
-        quotesList.add(quot
+        quotesList.add(quote)
     }
 }
 
@@ -30,7 +30,7 @@ fun main() {
 
 
         when (readLine()?.toIntOrNull()) {
-            1 -> println("Losowy cytat: ${QuoteManager1.getRandomQuot()}")
+            1 -> println("Losowy cytat: ${QuoteManager1.getRandomQuote()}")
             2 -> {
                 println("Podaj nowy cytat:")
                 val newQuote = readLine()
