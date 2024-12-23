@@ -17,7 +17,7 @@ object QuoteManager1 {
 
     // Dodawanie nowego cytatu
     fun addQuote(quote: String) {
-        quotesList.add(quote)
+        quotesList.add(quot
     }
 }
 
